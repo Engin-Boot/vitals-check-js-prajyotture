@@ -4,11 +4,11 @@ const respChecker=require("./respCheck.js");
 const spo2Checker=require("./spo2Check.js");
 const bpmChecker=require("./bpmCheck.js")
 function vitalsAreOk(bpm, spo2, respRate) {
-    if(  (bpmChecker(bpm)==false) || (respChecker(respRate)==fasle) || (spo2Checker(spo2)==false) ) {
+    if(  (bpmChecker(bpm)==false) || (respChecker(respRate)==false) || (spo2Checker(spo2)==false) ) {
         return false;
     }
     console.log("Everything is under control");
-    return true;
+    //return true;
 }
 
 expect(vitalsAreOk(100, 95, 70)).to.be.true
