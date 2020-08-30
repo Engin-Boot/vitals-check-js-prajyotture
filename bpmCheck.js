@@ -9,4 +9,4 @@ function IsBPMUnderControl(bpm){
     }
     return true;
 }
-module.export=IsBPMUnderControl;
+module.exports=IsBPMUnderControl;
