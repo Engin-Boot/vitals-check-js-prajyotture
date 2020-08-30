@@ -15,3 +15,4 @@ expect(vitalsAreOk(100, 95, 70)).to.be.true
 expect(vitalsAreOk(50, 95, 70)).to.be.false;
 //vitalsAreOk(100,95,70);
 console.log('checker is done');
+//print
