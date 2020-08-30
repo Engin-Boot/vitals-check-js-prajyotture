@@ -1,4 +1,4 @@
-//const expect = require('chai').expect;
+const expect = require('chai').expect;
 const bpmChecker=require("./bpmCheck.js");
 const respChecker=require("./respCheck.js");
 const spo2Checker=require("./spo2Check.js");
