@@ -1,4 +1,4 @@
-//const expect = require('chai').expect;
+const expect = require('chai').expect;
 const b=require("./bpmCheck");
 const r=require("./respCheck");
 const s=require("./spo2Check");
