@@ -8,7 +8,7 @@ function vitalsAreOk(bpm, spo2, respRate) {
         return false;
     }
     console.log("Everything is under control");
-    //return true;
+    return true;
 }
 
 expect(vitalsAreOk(100, 95, 70)).to.be.true
